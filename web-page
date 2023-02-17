@@ -1,0 +1,49 @@
+npm install atri
+
+mkdir my-atri-project
+cd my-atri-project
+npm init
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Restaurant Website Clone</title>
+  <link rel="stylesheet" href="https://unpkg.com/atri@1.0.0/dist/atri.min.css">
+</head>
+<body>
+  <header class="navbar">
+    <div class="navbar-section">
+      <a href="/" class="navbar-brand">Restaurant Name</a>
+    </div>
+    <div class="navbar-section">
+      <a href="#" class="btn btn-link">Home</a>
+      <a href="#" class="btn btn-link">Menu</a>
+      <a href="#" class="btn btn-link">Contact</a>
+    </div>
+  </header>
+  
+  <main class="container">
+    <div class="row">
+      <div class="col-4">
+        <img src="https://via.placeholder.com/300x200" alt="Food Image">
+      </div>
+      <div class="col-8">
+        <h1>Welcome to Our Restaurant</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vitae commodo lorem. Suspendisse et sapien vel erat lobortis commodo. Mauris auctor convallis purus, et gravida nulla efficitur vel. Donec suscipit libero nisl, in commodo neque dictum quis.</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-4">
+        <h2>Our Menu</h2>
+        <ul>
+          <li>Appetizers</li>
+          <li>Main Courses</li>
+          <li>Desserts</li>
+          <li>Drinks</li>
+        </ul>
+      </div>
+      <div class="col-8">
+        <h2>Specials</h2>
+        <div class="card">
+          <img src="https://via.placeholder.com/300x200" alt="Food Image" class="card-image">
+         
